@@ -18,18 +18,22 @@ const Publications: React.FC = () => {
       type: 'Journal Article',
       status: 'Published'
     },
+
+    {
+      title: 'Hybrid Deep Learning Architecture for Skin Disease Classification',
+      authors: ['Shakif Ahmed', 'K.M. Sadman Sakib', 'Umma Hany'],
+      journal: 'Franklin Open',
+      year: '2026',
+      doi: '10.1016/j.fraope.2026.100556',
+      link: 'https://doi.org/10.1016/j.fraope.2026.100556',
+      image: '/images/skin.jpg',
+      citations: 0,
+      type: 'Journal Article',
+      status: 'Published'
+    },
   ];
 
   const ongoingWorks = [
-    {
-      title: 'Hybrid Deep Learning Architecture for Skin Disease Classification',
-      authors: [],
-      doi: 'N/A',
-      year: '2025',
-      image: '/images/skin.jpg',
-      type: 'Research Paper',
-      status: 'Under Review'
-    },
     {
       title: 'SwinR-FPN: A Hybrid CNN–Transformer Approach for Feature Extraction and Classification in Breast Cancer Mammography',
       authors: [],

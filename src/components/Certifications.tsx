@@ -54,6 +54,18 @@ const Certifications: React.FC = () => {
       level: 'Intermediate',
       color: 'bg-indigo-500/10 text-indigo-500',
     },
+    {
+      name: 'Data Analytics Essentials',
+      issuer: 'Cisco Networking Academy',
+      date: '2026',
+      image: 'https://newsroom.cisco.com/c/dam/r/newsroom/en/us/images/Cisco-Logo-Blue_1200x675.jpg',
+      description: 'End-to-end data analytics process, including data types, formats, data transformation, and basic statistical analysis, with hands-on practice using Excel, SQL and Tableau.',
+      skills: ['Data Analysis', 'Data Visualization', 'Excel', 'SQL', 'Tableau'],
+      verificationLink: 'https://www.credly.com/badges/5705c98b-a322-4354-b4d2-8ec2349a4019',
+      type: 'Certificate',
+      level: 'Foundational',
+      color: 'bg-indigo-500/10 text-indigo-500',
+    },
   ];
 
   const achievements: Achievement[] = [
